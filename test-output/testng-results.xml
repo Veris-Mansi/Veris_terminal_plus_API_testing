@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43150" started-at="2019-06-04T14:14:08Z" finished-at="2019-06-04T14:14:52Z">
+    <groups>
+      <group name="TerminalLogin">
+        <method signature="CompleteValidateVisitor.terminalLogin()[pri:0, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="terminalLogin" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.terminalinvalidPasssword()[pri:2, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="terminalinvalidPasssword" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.terminalinvalidUsername()[pri:1, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="terminalinvalidUsername" class="Validatevisitor.CompleteValidateVisitor"/>
+      </group> <!-- TerminalLogin -->
+      <group name="getVisitorlastactivityData">
+        <method signature="CompleteValidateVisitor.getVisitorlastactivityData()[pri:14, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorlastactivityData" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.getVisitorlastactivityDatainvalidToken()[pri:15, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorlastactivityDatainvalidToken" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.getlastactivityDatainvalidUser()[pri:16, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getlastactivityDatainvalidUser" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.getlastactivityDatainvalidactivitytype()[pri:17, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getlastactivityDatainvalidactivitytype" class="Validatevisitor.CompleteValidateVisitor"/>
+      </group> <!-- getVisitorlastactivityData -->
+      <group name="MeetingWithAPI">
+        <method signature="CompleteValidateVisitor.MeetingWithTest()[pri:11, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="MeetingWithTest" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.invalidMeetingWith()[pri:13, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="invalidMeetingWith" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.invalidToken()[pri:12, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="invalidToken" class="Validatevisitor.CompleteValidateVisitor"/>
+      </group> <!-- MeetingWithAPI -->
+      <group name="getVisitorWorkflowData">
+        <method signature="CompleteValidateVisitor.getVisitorWFDATAinvalidToken()[pri:19, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWFDATAinvalidToken" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.getVisitorWFDATAinvalidVisitor()[pri:20, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWFDATAinvalidVisitor" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.getVisitorWFDATAinvalidactivityType()[pri:22, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWFDATAinvalidactivityType" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.getVisitorWFDATAinvalidworkflow()[pri:21, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWFDATAinvalidworkflow" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.getVisitorWorkflowdata()[pri:18, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWorkflowdata" class="Validatevisitor.CompleteValidateVisitor"/>
+      </group> <!-- getVisitorWorkflowData -->
+      <group name="Validatevisitot">
+        <method signature="CompleteValidateVisitor.ValidatevisitorEmail()[pri:5, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorEmail" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.ValidatevisitorinvalidEmail()[pri:7, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorinvalidEmail" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.ValidatevisitorinvalidPhone()[pri:6, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorinvalidPhone" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.ValidatevisitorinvalidQR()[pri:9, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorinvalidQR" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.Validatevisitorinvalidactivity()[pri:10, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="Validatevisitorinvalidactivity" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.ValidatevisitorvalidQR()[pri:8, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorvalidQR" class="Validatevisitor.CompleteValidateVisitor"/>
+        <method signature="CompleteValidateVisitor.ValidatevisitorMobile()[pri:4, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorMobile" class="Validatevisitor.CompleteValidateVisitor"/>
+      </group> <!-- Validatevisitot -->
+      <group name="Validatevisitor">
+        <method signature="CompleteValidateVisitor.visitorinvalidToken()[pri:3, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="visitorinvalidToken" class="Validatevisitor.CompleteValidateVisitor"/>
+      </group> <!-- Validatevisitor -->
+    </groups>
+    <test name="Default test" duration-ms="43150" started-at="2019-06-04T14:14:08Z" finished-at="2019-06-04T14:14:52Z">
+      <class name="Validatevisitor.CompleteValidateVisitor">
+        <test-method status="PASS" signature="terminalLogin()[pri:0, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="terminalLogin" duration-ms="5414" started-at="2019-06-04T19:44:08Z" finished-at="2019-06-04T19:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminalLogin -->
+        <test-method status="PASS" signature="terminalinvalidUsername()[pri:1, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="terminalinvalidUsername" duration-ms="1754" started-at="2019-06-04T19:44:14Z" finished-at="2019-06-04T19:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminalinvalidUsername -->
+        <test-method status="PASS" signature="terminalinvalidPasssword()[pri:2, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="terminalinvalidPasssword" duration-ms="1666" started-at="2019-06-04T19:44:16Z" finished-at="2019-06-04T19:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminalinvalidPasssword -->
+        <test-method status="PASS" signature="visitorinvalidToken()[pri:3, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="visitorinvalidToken" duration-ms="1628" started-at="2019-06-04T19:44:17Z" finished-at="2019-06-04T19:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitorinvalidToken -->
+        <test-method status="PASS" signature="ValidatevisitorMobile()[pri:4, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorMobile" duration-ms="1701" started-at="2019-06-04T19:44:19Z" depends-on-methods="Validatevisitor.CompleteValidateVisitor.terminalLogin" finished-at="2019-06-04T19:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatevisitorMobile -->
+        <test-method status="PASS" signature="ValidatevisitorEmail()[pri:5, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorEmail" duration-ms="1698" started-at="2019-06-04T19:44:21Z" finished-at="2019-06-04T19:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatevisitorEmail -->
+        <test-method status="PASS" signature="ValidatevisitorinvalidPhone()[pri:6, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorinvalidPhone" duration-ms="1715" started-at="2019-06-04T19:44:22Z" finished-at="2019-06-04T19:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatevisitorinvalidPhone -->
+        <test-method status="PASS" signature="ValidatevisitorinvalidEmail()[pri:7, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorinvalidEmail" duration-ms="1652" started-at="2019-06-04T19:44:24Z" finished-at="2019-06-04T19:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatevisitorinvalidEmail -->
+        <test-method status="PASS" signature="ValidatevisitorvalidQR()[pri:8, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorvalidQR" duration-ms="1702" started-at="2019-06-04T19:44:26Z" finished-at="2019-06-04T19:44:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatevisitorvalidQR -->
+        <test-method status="PASS" signature="ValidatevisitorinvalidQR()[pri:9, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="ValidatevisitorinvalidQR" duration-ms="1656" started-at="2019-06-04T19:44:27Z" finished-at="2019-06-04T19:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatevisitorinvalidQR -->
+        <test-method status="PASS" signature="Validatevisitorinvalidactivity()[pri:10, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="Validatevisitorinvalidactivity" duration-ms="1653" started-at="2019-06-04T19:44:29Z" finished-at="2019-06-04T19:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validatevisitorinvalidactivity -->
+        <test-method status="PASS" signature="MeetingWithTest()[pri:11, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="MeetingWithTest" duration-ms="1780" started-at="2019-06-04T19:44:31Z" finished-at="2019-06-04T19:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MeetingWithTest -->
+        <test-method status="PASS" signature="invalidToken()[pri:12, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="invalidToken" duration-ms="1701" started-at="2019-06-04T19:44:33Z" finished-at="2019-06-04T19:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidToken -->
+        <test-method status="PASS" signature="invalidMeetingWith()[pri:13, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="invalidMeetingWith" duration-ms="1573" started-at="2019-06-04T19:44:34Z" finished-at="2019-06-04T19:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidMeetingWith -->
+        <test-method status="PASS" signature="getVisitorlastactivityData()[pri:14, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorlastactivityData" duration-ms="1745" started-at="2019-06-04T19:44:36Z" depends-on-methods="Validatevisitor.CompleteValidateVisitor.terminalLogin" finished-at="2019-06-04T19:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVisitorlastactivityData -->
+        <test-method status="PASS" signature="getVisitorlastactivityDatainvalidToken()[pri:15, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorlastactivityDatainvalidToken" duration-ms="1808" started-at="2019-06-04T19:44:38Z" depends-on-methods="Validatevisitor.CompleteValidateVisitor.terminalLogin" finished-at="2019-06-04T19:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVisitorlastactivityDatainvalidToken -->
+        <test-method status="PASS" signature="getlastactivityDatainvalidUser()[pri:16, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getlastactivityDatainvalidUser" duration-ms="1596" started-at="2019-06-04T19:44:39Z" depends-on-methods="Validatevisitor.CompleteValidateVisitor.terminalLogin" finished-at="2019-06-04T19:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlastactivityDatainvalidUser -->
+        <test-method status="PASS" signature="getlastactivityDatainvalidactivitytype()[pri:17, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getlastactivityDatainvalidactivitytype" duration-ms="1616" started-at="2019-06-04T19:44:41Z" depends-on-methods="Validatevisitor.CompleteValidateVisitor.terminalLogin" finished-at="2019-06-04T19:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlastactivityDatainvalidactivitytype -->
+        <test-method status="PASS" signature="getVisitorWorkflowdata()[pri:18, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWorkflowdata" duration-ms="1620" started-at="2019-06-04T19:44:43Z" finished-at="2019-06-04T19:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVisitorWorkflowdata -->
+        <test-method status="PASS" signature="getVisitorWFDATAinvalidToken()[pri:19, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWFDATAinvalidToken" duration-ms="1727" started-at="2019-06-04T19:44:44Z" finished-at="2019-06-04T19:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVisitorWFDATAinvalidToken -->
+        <test-method status="PASS" signature="getVisitorWFDATAinvalidVisitor()[pri:20, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWFDATAinvalidVisitor" duration-ms="2058" started-at="2019-06-04T19:44:46Z" finished-at="2019-06-04T19:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVisitorWFDATAinvalidVisitor -->
+        <test-method status="PASS" signature="getVisitorWFDATAinvalidworkflow()[pri:21, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWFDATAinvalidworkflow" duration-ms="1887" started-at="2019-06-04T19:44:48Z" finished-at="2019-06-04T19:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVisitorWFDATAinvalidworkflow -->
+        <test-method status="PASS" signature="getVisitorWFDATAinvalidactivityType()[pri:22, instance:Validatevisitor.CompleteValidateVisitor@724af044]" name="getVisitorWFDATAinvalidactivityType" duration-ms="1638" started-at="2019-06-04T19:44:50Z" finished-at="2019-06-04T19:44:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVisitorWFDATAinvalidactivityType -->
+      </class> <!-- Validatevisitor.CompleteValidateVisitor -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

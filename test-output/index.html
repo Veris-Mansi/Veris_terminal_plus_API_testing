@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\veris\AppData\Local\temp\testng-eclipse-1740961231\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="MeetingWithTest">MeetingWithTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="ValidatevisitorEmail">ValidatevisitorEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="ValidatevisitorMobile">ValidatevisitorMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="ValidatevisitorinvalidEmail">ValidatevisitorinvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="ValidatevisitorinvalidPhone">ValidatevisitorinvalidPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="ValidatevisitorinvalidQR">ValidatevisitorinvalidQR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="Validatevisitorinvalidactivity">Validatevisitorinvalidactivity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="ValidatevisitorvalidQR">ValidatevisitorvalidQR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="getVisitorWFDATAinvalidToken">getVisitorWFDATAinvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="getVisitorWFDATAinvalidVisitor">getVisitorWFDATAinvalidVisitor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="getVisitorWFDATAinvalidactivityType">getVisitorWFDATAinvalidactivityType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="getVisitorWFDATAinvalidworkflow">getVisitorWFDATAinvalidworkflow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="getVisitorWorkflowdata">getVisitorWorkflowdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="getVisitorlastactivityData">getVisitorlastactivityData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="getVisitorlastactivityDatainvalidToken">getVisitorlastactivityDatainvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="getlastactivityDatainvalidUser">getlastactivityDatainvalidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="getlastactivityDatainvalidactivitytype">getlastactivityDatainvalidactivitytype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="invalidMeetingWith">invalidMeetingWith</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="invalidToken">invalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="terminalLogin">terminalLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="terminalinvalidPasssword">terminalinvalidPasssword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="terminalinvalidUsername">terminalinvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Validatevisitor.CompleteValidateVisitor" hash-for-method="visitorinvalidToken">visitorinvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Validatevisitor.CompleteValidateVisitor</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MeetingWithTest">
+                  </a> <!-- MeetingWithTest -->
+                  <span class="method-name">MeetingWithTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatevisitorEmail">
+                  </a> <!-- ValidatevisitorEmail -->
+                  <span class="method-name">ValidatevisitorEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatevisitorMobile">
+                  </a> <!-- ValidatevisitorMobile -->
+                  <span class="method-name">ValidatevisitorMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatevisitorinvalidEmail">
+                  </a> <!-- ValidatevisitorinvalidEmail -->
+                  <span class="method-name">ValidatevisitorinvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatevisitorinvalidPhone">
+                  </a> <!-- ValidatevisitorinvalidPhone -->
+                  <span class="method-name">ValidatevisitorinvalidPhone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatevisitorinvalidQR">
+                  </a> <!-- ValidatevisitorinvalidQR -->
+                  <span class="method-name">ValidatevisitorinvalidQR</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validatevisitorinvalidactivity">
+                  </a> <!-- Validatevisitorinvalidactivity -->
+                  <span class="method-name">Validatevisitorinvalidactivity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatevisitorvalidQR">
+                  </a> <!-- ValidatevisitorvalidQR -->
+                  <span class="method-name">ValidatevisitorvalidQR</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getVisitorWFDATAinvalidToken">
+                  </a> <!-- getVisitorWFDATAinvalidToken -->
+                  <span class="method-name">getVisitorWFDATAinvalidToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getVisitorWFDATAinvalidVisitor">
+                  </a> <!-- getVisitorWFDATAinvalidVisitor -->
+                  <span class="method-name">getVisitorWFDATAinvalidVisitor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getVisitorWFDATAinvalidactivityType">
+                  </a> <!-- getVisitorWFDATAinvalidactivityType -->
+                  <span class="method-name">getVisitorWFDATAinvalidactivityType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getVisitorWFDATAinvalidworkflow">
+                  </a> <!-- getVisitorWFDATAinvalidworkflow -->
+                  <span class="method-name">getVisitorWFDATAinvalidworkflow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getVisitorWorkflowdata">
+                  </a> <!-- getVisitorWorkflowdata -->
+                  <span class="method-name">getVisitorWorkflowdata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getVisitorlastactivityData">
+                  </a> <!-- getVisitorlastactivityData -->
+                  <span class="method-name">getVisitorlastactivityData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getVisitorlastactivityDatainvalidToken">
+                  </a> <!-- getVisitorlastactivityDatainvalidToken -->
+                  <span class="method-name">getVisitorlastactivityDatainvalidToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getlastactivityDatainvalidUser">
+                  </a> <!-- getlastactivityDatainvalidUser -->
+                  <span class="method-name">getlastactivityDatainvalidUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getlastactivityDatainvalidactivitytype">
+                  </a> <!-- getlastactivityDatainvalidactivitytype -->
+                  <span class="method-name">getlastactivityDatainvalidactivitytype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidMeetingWith">
+                  </a> <!-- invalidMeetingWith -->
+                  <span class="method-name">invalidMeetingWith</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidToken">
+                  </a> <!-- invalidToken -->
+                  <span class="method-name">invalidToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="terminalLogin">
+                  </a> <!-- terminalLogin -->
+                  <span class="method-name">terminalLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="terminalinvalidPasssword">
+                  </a> <!-- terminalinvalidPasssword -->
+                  <span class="method-name">terminalinvalidPasssword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="terminalinvalidUsername">
+                  </a> <!-- terminalinvalidUsername -->
+                  <span class="method-name">terminalinvalidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visitorinvalidToken">
+                  </a> <!-- visitorinvalidToken -->
+                  <span class="method-name">visitorinvalidToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\veris\AppData\Local\temp\testng-eclipse-1740961231\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Validatevisitor.CompleteValidateVisitor&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">MeetingWithAPI</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">MeetingWithTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidMeetingWith</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidToken</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">TerminalLogin</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">terminalLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">terminalinvalidPasssword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">terminalinvalidUsername</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Validatevisitor</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">visitorinvalidToken</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Validatevisitot</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidatevisitorEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidatevisitorMobile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidatevisitorinvalidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidatevisitorinvalidPhone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidatevisitorinvalidQR</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Validatevisitorinvalidactivity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidatevisitorvalidQR</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">getVisitorWorkflowData</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getVisitorWFDATAinvalidToken</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getVisitorWFDATAinvalidVisitor</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getVisitorWFDATAinvalidactivityType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getVisitorWFDATAinvalidworkflow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getVisitorWorkflowdata</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">getVisitorlastactivityData</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getVisitorlastactivityData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getVisitorlastactivityDatainvalidToken</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getlastactivityDatainvalidUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getlastactivityDatainvalidactivitytype</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'terminalLogin')
+data.setCell(0, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(0, 3, 5414);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getVisitorWFDATAinvalidVisitor')
+data.setCell(1, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(1, 3, 2058);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getVisitorWFDATAinvalidworkflow')
+data.setCell(2, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(2, 3, 1887);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getVisitorlastactivityDatainvalidToken')
+data.setCell(3, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(3, 3, 1808);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'MeetingWithTest')
+data.setCell(4, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(4, 3, 1780);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'terminalinvalidUsername')
+data.setCell(5, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(5, 3, 1754);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getVisitorlastactivityData')
+data.setCell(6, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(6, 3, 1745);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getVisitorWFDATAinvalidToken')
+data.setCell(7, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(7, 3, 1727);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ValidatevisitorinvalidPhone')
+data.setCell(8, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(8, 3, 1715);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ValidatevisitorvalidQR')
+data.setCell(9, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(9, 3, 1702);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ValidatevisitorMobile')
+data.setCell(10, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(10, 3, 1701);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'invalidToken')
+data.setCell(11, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(11, 3, 1701);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ValidatevisitorEmail')
+data.setCell(12, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(12, 3, 1698);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'terminalinvalidPasssword')
+data.setCell(13, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(13, 3, 1666);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ValidatevisitorinvalidQR')
+data.setCell(14, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(14, 3, 1656);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Validatevisitorinvalidactivity')
+data.setCell(15, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(15, 3, 1653);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ValidatevisitorinvalidEmail')
+data.setCell(16, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(16, 3, 1652);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getVisitorWFDATAinvalidactivityType')
+data.setCell(17, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(17, 3, 1638);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'visitorinvalidToken')
+data.setCell(18, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(18, 3, 1628);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getVisitorWorkflowdata')
+data.setCell(19, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(19, 3, 1620);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getlastactivityDatainvalidactivitytype')
+data.setCell(20, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(20, 3, 1616);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getlastactivityDatainvalidUser')
+data.setCell(21, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(21, 3, 1596);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'invalidMeetingWith')
+data.setCell(22, 2, 'Validatevisitor.CompleteValidateVisitor')
+data.setCell(22, 3, 1573);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Validatevisitor.CompleteValidateVisitor</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">terminalLogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">terminalinvalidUsername</span>
+                <span class="method-start">5427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">terminalinvalidPasssword</span>
+                <span class="method-start">7183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">visitorinvalidToken</span>
+                <span class="method-start">8851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidatevisitorMobile</span>
+                <span class="method-start">10484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidatevisitorEmail</span>
+                <span class="method-start">12191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidatevisitorinvalidPhone</span>
+                <span class="method-start">13897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidatevisitorinvalidEmail</span>
+                <span class="method-start">15621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidatevisitorvalidQR</span>
+                <span class="method-start">17284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidatevisitorinvalidQR</span>
+                <span class="method-start">18996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validatevisitorinvalidactivity</span>
+                <span class="method-start">20658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MeetingWithTest</span>
+                <span class="method-start">22312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidToken</span>
+                <span class="method-start">24098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidMeetingWith</span>
+                <span class="method-start">25810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getVisitorlastactivityData</span>
+                <span class="method-start">27390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getVisitorlastactivityDatainvalidToken</span>
+                <span class="method-start">29139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getlastactivityDatainvalidUser</span>
+                <span class="method-start">30957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getlastactivityDatainvalidactivitytype</span>
+                <span class="method-start">32562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getVisitorWorkflowdata</span>
+                <span class="method-start">34180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getVisitorWFDATAinvalidToken</span>
+                <span class="method-start">35804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getVisitorWFDATAinvalidVisitor</span>
+                <span class="method-start">37531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getVisitorWFDATAinvalidworkflow</span>
+                <span class="method-start">39593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getVisitorWFDATAinvalidactivityType</span>
+                <span class="method-start">41486 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
