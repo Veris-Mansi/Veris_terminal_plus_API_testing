@@ -27,7 +27,7 @@ public class MeetingWithAPI {
 				queryParam("contact", meeting_with).
 				headers("Authorization","gatekeeper "+token).
 				when().get("/api/v2/meeting-with/").
-				then().assertThat().statusCode(200).and().body("name[0]", equalTo("Shaka Kumar")).extract().response();
+				then().assertThat().statusCode(200).and().body("name[0]", equalTo("Shailendraa")).extract().response();
 		String response = res.asString();
 		JsonPath path = new JsonPath(response);
 		System.out.println("Response "+response);
